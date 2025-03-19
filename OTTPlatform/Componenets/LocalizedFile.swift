@@ -13,3 +13,9 @@ extension LocalizedStringKey {
         return LocalizedStringKey(key)
     }
 }
+
+extension Double {
+    func convertToString(_ isPlayed: Bool) -> String {
+        return "\(self)" + (isPlayed ? " mins left" : " mins")
+    }
+}

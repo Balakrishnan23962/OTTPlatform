@@ -114,10 +114,3 @@ struct EpisodeDetails: View {
 
     }
 }
-
-
-extension Double {
-    func convertToString(_ isPlayed: Bool) -> String {
-        return "\(self)" + (isPlayed ? " mins left" : " mins")
-    }
-}
