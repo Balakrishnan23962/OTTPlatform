@@ -71,7 +71,7 @@ struct MovieDetailsScreen: View {
         }
         .backgroundModifier()
         .task {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
                 movieVM.loadMovieDetails()
             }
         }

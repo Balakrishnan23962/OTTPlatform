@@ -8,8 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showSplash = true
     var body: some View {
-        MovieDetailsScreen()
+        ZStack {
+            if showSplash {
+                Image(.logo)
+                    .resizableFit()
+                    .transition(.scale)
+            } else {
+                MovieDetailsScreen()
+            }
+        }
+        .task {
+            guard showSplash else { return }
+            try? await Task.sleep(for: .seconds(0.5))
+            withAnimation(.easeOut) {
+                showSplash = false
+            }
+        }
     }
 }
 
