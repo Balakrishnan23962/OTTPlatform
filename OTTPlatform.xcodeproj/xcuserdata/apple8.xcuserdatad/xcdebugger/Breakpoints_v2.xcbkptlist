@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8ECD69B9-FE00-4859-AB1E-9823F755D6A3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "81DA24C9-E20B-4503-A8A0-B5DB3A1E0AD2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../var/folders/jg/28zstjrs2cg64f8j24l5m7jr0000gn/T/swift-generated-sources/@__swiftmacro_11OTTPlatform0029EpisodesListScreenswift_tAFJhfMX44_0_33_323518E22B8AF8C5780C07DD96B4001ELl7PreviewfMf_.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1"
+            endingLineNumber = "1"
+            landmarkName = "$s11OTTPlatform0029EpisodesListScreenswift_tAFJhfMX44_0_33_323518E22B8AF8C5780C07DD96B4001ELl7PreviewfMf_15PreviewRegistryfMu_"
+            landmarkType = "37">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
